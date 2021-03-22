@@ -1,0 +1,122 @@
+body{
+    font-family: "Popins", "Areal", "sans-serif";
+    font-size: 15px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: hsl(0, 0%, 98%);
+    width: 1200px;
+    padding:50px 120px;
+    margin: 50px auto;
+}
+
+.header{
+    width: 500px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title{
+    font-size: 36px;
+    color: #8E8D93;
+    line-height: 48px;
+}
+
+.bold{
+    font-weight: 600;
+    color: #4D4E60;
+}
+
+.info{
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #AAAAAC;
+}
+
+.main{
+    display: flex;
+    margin-top:80px;
+    margin-bottom: 50px;
+}
+
+.cards{
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 8px 8px 8px #f1f0f0;
+    background-color: #fff;
+    margin: 15px;
+}
+
+.supervisor{
+    border-top: 4px solid #5FC5C7;
+}
+
+.builders{
+    border-top: 4px solid hsl(0, 78%, 62%);
+    margin-bottom: 30px ;
+}
+
+.karma{
+    border-top: 4px solid hsl(34, 97%, 64%);
+}
+
+.calculator{
+    border-top: 4px solid hsl(212, 86%, 64%);
+}
+
+.calculator, .supervisor{
+    margin: auto 20px;
+}
+
+.cards::after{
+    content: "";
+    display: block;
+    background-repeat: no-repeat;
+    width:  85px;
+    height: 85px;
+    margin-left: 220px;
+    margin-top: 40px;
+} 
+
+
+.supervisor::after{
+    background-image: url(../images/icon-supervisor.svg);
+}
+
+.builders::after{
+    background-image: url(../images/icon-team-builder.svg);
+    margin-top: 30px;
+}
+
+.karma::after{
+    background-image: url(../images/icon-karma.svg);
+}
+
+.calculator::after{
+    background-image: url(../images/icon-calculator.svg);
+    margin-top: 30px;
+}
+
+.card-title{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.card-text{
+    margin-top: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #ADACB1;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+}
