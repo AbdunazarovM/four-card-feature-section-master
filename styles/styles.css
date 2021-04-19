@@ -1,18 +1,60 @@
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 100;
+    src: url('../fonts/poppins-v15-latin-100.eot');
+    src: local(''),
+         url('../fonts/poppins-v15-latin-100.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/poppins-v15-latin-100.woff2') format('woff2'),
+         url('../fonts/poppins-v15-latin-100.woff') format('woff'), 
+         url('../fonts/poppins-v15-latin-100.ttf') format('truetype'), 
+         url('../fonts/poppins-v15-latin-100.svg#Poppins') format('svg'); 
+  }
+
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/poppins-v15-latin-regular.eot');
+    src: local(''),
+         url('../fonts/poppins-v15-latin-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/poppins-v15-latin-regular.woff2') format('woff2'),
+         url('../fonts/poppins-v15-latin-regular.woff') format('woff'), 
+         url('../fonts/poppins-v15-latin-regular.ttf') format('truetype'), 
+         url('../fonts/poppins-v15-latin-regular.svg#Poppins') format('svg'); 
+  }
+
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/poppins-v15-latin-600.eot');
+    src: local(''),
+         url('../fonts/poppins-v15-latin-600.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/poppins-v15-latin-600.woff2') format('woff2'),
+         url('../fonts/poppins-v15-latin-600.woff') format('woff'), 
+         url('../fonts/poppins-v15-latin-600.ttf') format('truetype'), 
+         url('../fonts/poppins-v15-latin-600.svg#Poppins') format('svg'); 
+  }
+
 body{
     font-family: "Popins", "Areal", "sans-serif";
     font-size: 15px;
     margin: 0;
     box-sizing: border-box;
+    background-color: hsl(0, 0%, 98%);
 }
 
 .container{
-    background-color: hsl(0, 0%, 98%);
-    width: 1080px;
-    padding:50px 120px;
-    margin: 50px auto;
+    width: 1200px;
+    margin: 0 auto;
 }
 
 .header{
+    padding-top: 50px;
+}
+
+.header-container{
     width: 500px;
     text-align: center;
     margin-left: auto;
@@ -23,6 +65,7 @@ body{
     font-size: 36px;
     color: #8E8D93;
     line-height: 48px;
+    font-weight: 100;
 }
 
 .bold{
@@ -38,7 +81,7 @@ body{
     color: #AAAAAC;
 }
 
-.main{
+.main-container{
     display: flex;
     margin-top:80px;
     margin-bottom: 50px;
@@ -116,7 +159,7 @@ body{
     color: #ADACB1;
 }
 
-.footer{
+.footer-container{
     display: flex;
     justify-content: center;
 }
